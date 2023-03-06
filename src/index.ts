@@ -6,7 +6,7 @@ module.exports = {
         "preset-ja-technical-writing": moduleInterop(require("textlint-rule-preset-ja-technical-writing")),
         "rule-no-synonyms": moduleInterop(require("@textlint-ja/textlint-rule-no-synonyms")),
         "preset-ja-engineering-paper": moduleInterop(require("textlint-rule-preset-ja-engineering-paper")),
-        "filter-rule-comments": moduleInterop(require(" textlint-filter-rule-comments")),
+        "filter-rule-comments": moduleInterop(require("textlint-filter-rule-comments")),
         "no-kangxi-radicals": moduleInterop(require("textlint-rule-no-kangxi-radicals")),
         "preset-ja-spacing": moduleInterop(require("textlint-rule-preset-ja-spacing"))
     }
