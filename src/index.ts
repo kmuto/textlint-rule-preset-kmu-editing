@@ -9,6 +9,14 @@ module.exports = {
         "filter-rule-comments": moduleInterop(require("textlint-filter-rule-comments")),
         "no-kangxi-radicals": moduleInterop(require("textlint-rule-no-kangxi-radicals")),
         "preset-ja-spacing": moduleInterop(require("textlint-rule-preset-ja-spacing"))
+    },
+    rulesConfig: {
+        "preset-ja-technical-writing": true,
+        "rule-no-synonyms": true,
+        "preset-ja-engineering-paper": true,
+        "filter-rule-comments": true,
+        "no-kangxi-radicals": true,
+       "preset-ja-spacing": true
     }
 };
 
