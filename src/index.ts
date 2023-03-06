@@ -16,7 +16,7 @@ module.exports = {
         "preset-ja-engineering-paper": true,
         "filter-rule-comments": true,
         "no-kangxi-radicals": true,
-       "preset-ja-spacing": true
+        "preset-ja-spacing": true
     }
 };
 
