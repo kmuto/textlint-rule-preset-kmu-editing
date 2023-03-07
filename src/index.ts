@@ -1,22 +1,21 @@
 "use strict";
-import { moduleInterop } from "@textlint/module-interop";
 
 module.exports = {
     rules: {
-        "preset-ja-technical-writing": moduleInterop(require("textlint-rule-preset-ja-technical-writing")),
-        "rule-no-synonyms": moduleInterop(require("@textlint-ja/textlint-rule-no-synonyms")),
-        "preset-ja-engineering-paper": moduleInterop(require("textlint-rule-preset-ja-engineering-paper")),
-        "filter-rule-comments": moduleInterop(require("textlint-filter-rule-comments")),
-        "no-kangxi-radicals": moduleInterop(require("textlint-rule-no-kangxi-radicals")),
-        "preset-ja-spacing": moduleInterop(require("textlint-rule-preset-ja-spacing"))
+/*        "preset-ja-technical-writing": require("textlint-rule-preset-ja-technical-writing").default,
+        "rule-no-synonyms": require("@textlint-ja/textlint-rule-no-synonyms"),
+        "preset-ja-engineering-paper": require("textlint-rule-preset-ja-engineering-paper"),
+        "filter-rule-comments": require("textlint-filter-rule-comments"), */
+        "no-kangxi-radicals": require("textlint-rule-no-kangxi-radicals").default, 
+        // "preset-ja-spacing": require("textlint-rule-preset-ja-spacing").default
     },
     rulesConfig: {
-        "preset-ja-technical-writing": true,
+/*        "preset-ja-technical-writing": true,
         "rule-no-synonyms": true,
         "preset-ja-engineering-paper": true,
-        "filter-rule-comments": true,
+        "filter-rule-comments": true, */
         "no-kangxi-radicals": true,
-        "preset-ja-spacing": true
+        // "preset-ja-spacing": true
     }
 };
 
