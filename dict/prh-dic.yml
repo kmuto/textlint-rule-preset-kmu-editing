@@ -30,8 +30,8 @@ rules:
       - Javascript
       - javascript
     prh: タイプミス
-  - expected: 致し
-    pattern: いたし
+  - expected: いたし
+    pattern: 致し
     prh: ひらがなにしたほうが読みやすい
   - expected: いただ$1
     pattern: /頂([かきくけこ])/
