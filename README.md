@@ -2,6 +2,8 @@
 
 kmuto's generic editing rule for textlint in Japanese
 
+- [npm site](https://www.npmjs.com/package/@kmuto/textlint-rule-preset-kmu-editing)
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
