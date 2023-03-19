@@ -1,35 +1,5 @@
 version: 1
 rules:
-  - expected: Mackerel
-    pattern:
-      - Mackrel
-      - Mackerl
-      - Makerel
-      - Makerl
-      - Mckerel
-      - Makarel
-      - Makalel
-      - Mackelel
-    prh: タイプミス
-  - expected: mackerel
-    pattern:
-      - mackrel
-      - mackerl
-      - makerel
-      - makerl
-      - mckerel
-      - makarel
-      - makalel
-      - mackelel
-    prh: タイプミス
-  - expected: default
-    pattern: deflaut
-    prh: タイプミス
-  - expected: JavaScript
-    pattern:
-      - Javascript
-      - javascript
-    prh: タイプミス
   - expected: いたし
     pattern: 致し
     prh: ひらがなにしたほうが読みやすい
@@ -69,3 +39,12 @@ rules:
   - expected: 行$1
     pattern: /行な([いうえおわ])/
     prh: 表記統一
+  - expected: インスタンス
+    pattern: /(インタス?ンス|インスタス)/
+    prh: タイプミス可能性
+  - expected: サーバ
+    pattern: サバー
+    prh: タイプミス可能性
+  - expected: デプロイ
+    pattern: /(テプロイ|デロプイ|デブロイ)/
+    prh: タイプミス可能性
