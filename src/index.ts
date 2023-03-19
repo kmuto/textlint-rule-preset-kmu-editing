@@ -6,10 +6,10 @@ const jaSpacingRules = moduleInterop(require("textlint-rule-preset-ja-spacing"))
 
 module.exports = {
     rules: {
-        "kmu-termcheck": moduleInterop(require("@kmuto/textlint-rule-kmu-termcheck")),
         "rule-no-synonyms": moduleInterop(require("@textlint-ja/textlint-rule-no-synonyms")),
         "filter-rule-comments": moduleInterop(require("textlint-filter-rule-comments")),
         "no-kangxi-radicals": moduleInterop(require("textlint-rule-no-kangxi-radicals")),
+        "kmu-termcheck": moduleInterop(require("@kmuto/textlint-rule-kmu-termcheck")),
         ...jaTechnicalWritingRules,
         ...jaEngineeringPaperRules,
         ...jaSpacingRules

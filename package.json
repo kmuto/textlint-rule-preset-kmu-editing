@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/kmuto/textlint-rule-preset-kmu-editing#readme",
   "dependencies": {
-    "@kmuto/textlint-rule-kmu-termcheck": "^1.0.0",
+    "@kmuto/textlint-rule-kmu-termcheck": "^1.1.0",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-plugin-html": "^1.0.0",
