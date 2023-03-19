@@ -40,14 +40,11 @@ rules:
     pattern: /行な([いうえおわ])/
     prh: 表記統一
   - expected: インスタンス
-    pattern: /インタス?ンス/
-    pattern: インスタス
+    pattern: /(インタス?ンス|インスタス)/
     prh: タイプミス可能性
   - expected: サーバ
     pattern: サバー
     prh: タイプミス可能性
   - expected: デプロイ
-    pattern: テプロイ
-    pattern: デロプイ
-    pattern: デブロイ
+    pattern: /(テプロイ|デロプイ|デブロイ)/
     prh: タイプミス可能性
