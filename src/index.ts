@@ -31,11 +31,10 @@ module.exports = {
             "allowPeriodMarks": ["〜", "…", "："],
             "allowEmojiAtEnd": true
         },
-        /*"unify-kuten-and-touten": {
-            "kuten": "、",
-            "touten": "。"
-        },*/
-        "unify-kuten-and-touten": false, // うまく効いてくれないのでオフにしてみる
+        "unify-kuten-and-touten": {
+            "kuten": "。",
+            "touten": "、"
+        },
         "no-doubled-joshi": false, // 助詞連続防止は調整困難
         "no-exclamation-question-mark": false, // !,?は許可したい
         "ja-no-weak-phrase": false, // かもしれない・思います アラートはやりすぎ
